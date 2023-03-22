@@ -1,5 +1,5 @@
 # 실행 파일 위치
-https://github.com/sangyub1/blogSearchForKa/blob/master/build/libs/blogSearch-0.0.1-SNAPSHOT.jar
+https://github.com/sangyub1/blogSearchForKa/blob/master/build/libs/blogSearch-0.0.3-SNAPSHOT.jar
 
 # Rest API
 Swagger Url : http://localhost:8080/swagger-ui.html#/blog-search-controller
@@ -24,6 +24,10 @@ Swagger Url : http://localhost:8080/swagger-ui.html#/blog-search-controller
  검색 Count 등록 : DB Update와 memory Update를 분리하기 위한 Scheduler 활용
  
  DB update는 Memory Update와 비교하여 시간이 많이 걸림으로 DB update와 Memory Update의 Thread분리를 통해 Memory Update Delay 예방
+ 
+ 예외처리 : Request Param Validation Check, KakaoClient Conntion Check
+ 
+ RestControllerAdvice를 통한 Custom Exception 처리
                 
                  
 # 
