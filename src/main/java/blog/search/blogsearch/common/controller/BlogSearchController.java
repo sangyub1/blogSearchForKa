@@ -20,7 +20,7 @@ public class BlogSearchController {
 
     @GetMapping("/search")
     @ApiOperation(value = "블로그 검색")
-    public SearchResponseDto search(@RequestBody @Valid RequestDto requestDto){
+    public SearchResponseDto search(RequestDto requestDto) {
         return searchService.searchBlog(requestDto);
     }
 
