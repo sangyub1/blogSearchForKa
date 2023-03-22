@@ -23,7 +23,7 @@ Swagger Url : http://localhost:8080/swagger-ui.html#/blog-search-controller
  
  검색 Count 등록 : DB Update와 memory Update를 분리하기 위한 Scheduler 활용
  
-                 DB update는 Memory Update와 비교하여 시간이 많이 걸림으로 DB update와 Memory Update의 Thread분리를 통해 Memory Update Delay 예방
+ DB update는 Memory Update와 비교하여 시간이 많이 걸림으로 DB update와 Memory Update의 Thread분리를 통해 Memory Update Delay 예방
                 
                  
 # 
