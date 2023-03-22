@@ -1,7 +1,7 @@
 HELP.md
 .gradle
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
+!**/src/main/**/build/libs
 !**/src/test/**/build/
 
 ### STS ###
@@ -9,10 +9,10 @@ HELP.md
 .classpath
 .factorypath
 .project
-.settingss
+.settings
 .springBeans
 .sts4-cache
-bin/
+bin/ß
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
