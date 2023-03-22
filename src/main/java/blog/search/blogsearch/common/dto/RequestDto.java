@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 public class RequestDto {
     @NotNull
     private String query;
-    private String sort;
+    private SortEnum sort;
     private int page;
     private int size;
 }

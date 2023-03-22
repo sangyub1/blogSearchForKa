@@ -24,7 +24,7 @@ public class KakaoSearchService implements SearchInterface {
     public SearchResponseDto search(RequestDto requestDto){
         try {
             SearchResponseDto<KakaoResponseDto> ret = kakaoClient.getBlogs(requestDto.getQuery(),
-                    requestDto.getSort(),
+                    requestDto.getSort().getValue(),
                     requestDto.getPage(),
                     requestDto.getSize()).toCommon();
             return ret;

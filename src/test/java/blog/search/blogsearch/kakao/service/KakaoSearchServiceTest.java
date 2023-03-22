@@ -2,6 +2,7 @@ package blog.search.blogsearch.kakao.service;
 
 import blog.search.blogsearch.common.dto.RequestDto;
 import blog.search.blogsearch.common.dto.SearchResponseDto;
+import blog.search.blogsearch.common.dto.SortEnum;
 import blog.search.blogsearch.common.service.SearchService;
 import blog.search.blogsearch.interest.dto.InterestSearchDto;
 import blog.search.blogsearch.kakao.client.KakaoClient;
@@ -58,7 +59,7 @@ class KakaoSearchServiceTest {
                 .query("TEST")
                 .page(1)
                 .size(10)
-                .sort("RECENTLY")
+                .sort(SortEnum.RECENCY)
                 .build();
         SearchResponseDto res = kakaoSearchService.search(requestDto);
         KakaoResponseDto result = (KakaoResponseDto) res.getItem();

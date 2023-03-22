@@ -2,6 +2,7 @@ package blog.search.blogsearch.common.service;
 
 import blog.search.blogsearch.common.dto.RequestDto;
 import blog.search.blogsearch.common.dto.SearchResponseDto;
+import blog.search.blogsearch.common.dto.SortEnum;
 import blog.search.blogsearch.interest.dto.InterestSearchDto;
 import blog.search.blogsearch.interest.service.InterestRegService;
 import blog.search.blogsearch.kakao.client.KakaoClient;
@@ -77,7 +78,7 @@ class SearchServiceTest {
                 .query(query)
                 .page(1)
                 .size(1)
-                .sort("RECENTLY")
+                .sort(SortEnum.RECENCY)
                 .build();
     }
 }
