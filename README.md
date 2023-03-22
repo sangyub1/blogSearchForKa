@@ -3,7 +3,7 @@ https://github.com/sangyub1/blogSearchForKa/blob/master/build/libs/blogSearch-0.
 # 실행 환경
  JAVA : JAVA 11 이상
 
-# Rest API
+# Rest API 명세서
 Swagger Url : http://localhost:8080/swagger-ui.html#/blog-search-controller
  - 위 실행 파일 실행 후 Swaager Url 입력
 <img width="1467" alt="image" src="https://user-images.githubusercontent.com/128556715/226778013-52f313a6-957a-40c5-89e0-830ee49086f5.png">
