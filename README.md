@@ -1,5 +1,5 @@
 # 실행 파일 위치
-https://github.com/sangyub1/blogSearchForKa/blob/master/build/libs/blogSearch-0.0.3-SNAPSHOT.jar
+https://github.com/sangyub1/blogSearchForKa/blob/master/build/libs/blogSearch-0.0.4-SNAPSHOT.jar
 # 실행 환경
  JAVA : JAVA 11 이상
 
