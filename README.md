@@ -1,5 +1,7 @@
 # 실행 파일 위치
 https://github.com/sangyub1/blogSearchForKa/blob/master/build/libs/blogSearch-0.0.3-SNAPSHOT.jar
+# 실행 환경
+ JAVA : JAVA 11 이상
 
 # Rest API
 Swagger Url : http://localhost:8080/swagger-ui.html#/blog-search-controller
