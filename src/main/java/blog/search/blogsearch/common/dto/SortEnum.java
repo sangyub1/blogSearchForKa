@@ -15,18 +15,8 @@ public enum SortEnum {
         this.value = value;
     }
 
-    @JsonCreator
-    public static SortEnum from(String value) {
-        for (SortEnum status : SortEnum.values()) {
-            if (status.getValue().equals(value)) {
-                return status;
-            }
-        }
-        return ACCURACY;
-    }
 
-    @JsonValue
-    public String getValue() {
+    public String Value() {
         return value;
     }
 }
